@@ -73,7 +73,7 @@ class Record:
     def edit_phone(self, new_phone):
         if len(self.phones) > 1:
             response = input(
-                f"There is more than one phone saved for {self.name}:\n{self.get_phones()}\nPlease pick number: "
+                f"There is more than one phone saved for {self.name}:\n{self.get_phones()}\nPlease pick position of the number to change: "
             )
             try:
                 self.phones[int(response) - 1] = Phone(new_phone)

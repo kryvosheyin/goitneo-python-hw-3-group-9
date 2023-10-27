@@ -1,0 +1,9 @@
+"add":|adds contact:|enter contact name and phone number (10 digits)
+"add-phone":|adds phone to existing contact:|enter name and phone
+"change":|changes contact:|enter name and new phone
+"phone":|gets contact's phone:|enter contact name
+"all":|prints all contacts|
+"add-birthday":|adds birthday:|enter name and birthday (DD.MM.YYY)
+"show-birthday":|shows birthday:|enter name
+"birthdays":|prints birthdays for upcoming week|
+"delete-phone":|removes phone for contact:|enter name
